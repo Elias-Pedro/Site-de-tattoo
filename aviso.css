@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 500px;
+    width: 90%;
+}
+svg{
+    width: 100px;
+    height: 100px;
+    margin: 100px 20px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #aaa;
+}
+
+button{
+    background: none;
+    border: 1px solid white;
+    padding: 14px 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: black;
+}

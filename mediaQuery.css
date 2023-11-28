@@ -1,0 +1,266 @@
+@media (max-width: 1060px) {
+    .boxItensCarrossel .itensCarrossel:last-child{
+        display: none;
+    }
+    .itensCarrossel {
+        width: calc(50% - 10px);
+    }
+    .cntrArtistas {
+        padding: 40px 50px;
+    }
+    .boxArtistas p {
+        font-size: 15px;
+    }
+    .cntrH2Enfeite img {
+        max-width: 30%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1000px){
+    .boxArtistas img {
+        width: 360px;
+        height: 360px;
+    }
+    .boxArtistas p{
+        margin-left: calc(360px + 30px);
+    }
+    .cntrArtistas {
+        padding: 40px 20px;
+    }
+    .boxArtistas {
+        padding: 10px;
+    }
+    .boxArtistas img {
+        margin-right: 20px;
+    }
+    .cntrHome img {
+        margin: 10px;
+        margin-top: 0px;
+        width: 450px;
+    }
+    .cntrHome {
+        justify-content: flex-start;
+        min-height: fit-content !important;
+    }
+    .cntrHome button {
+        padding: 16px;
+        font-size: 16px;
+    }
+    main video {
+        top: 85px;
+    }
+    .cntrBtn, .cntrHorarios{
+        width: calc(50% - 10px);
+    }
+    .cntrBtn button, .cntrHorarios span{
+        width: 100%;
+    }
+    .cntrHorarios{
+        margin-left: 30px;
+    }
+    .cntrH2Enfeite {
+        padding: 50px 15px;
+    }
+
+
+}
+
+@media (max-width: 960px){
+    .addComentario {
+        width: 50%;
+    }
+    .boxArtistas img {
+        width: 300px;
+        height: 300px;
+    }
+    .boxArtistas p{
+        margin-left: calc(300px + 30px);
+    }
+}
+@media (max-width: 900px){
+    header img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 860px){
+    .cntrCarrossel {
+        padding: 10px 20px;
+    }
+    .boxArtistas {
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    background-image: linear-gradient(5deg, rgb(26, 26, 26), transparent);
+    margin-bottom: 0px;
+}
+    .boxArtistas p {
+        margin: 0px;
+        margin-top: calc(300px + 30px);
+    }
+    .tatuagens img {
+        width: 32%;
+        padding: 4px;
+    }
+
+}
+
+
+@media (max-width: 800px){
+    .cntrH2Enfeite h2 {
+        font-size: 30px;
+    }
+
+
+    .btnAbrirMenu{
+        display: flex;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .btnFecharMenu{
+        padding: 20px;
+        cursor: pointer;
+    }
+    .btnAbrirMenu svg, .btnFecharMenu svg{
+        width: 20px;
+        height: 20px;
+    }
+    header ul {
+        display: none;
+    }
+    video{
+        display: none;
+    }
+    .addComentario {
+        width: 70%;
+    }
+    .tatuagens {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+}
+@media (min-width: 800px){     /* MINIMO */
+    .btnAbrirMenu,.btnFecharMenu{
+        display: none !important;
+    }
+    .itemsMenu, .logoHeader{
+        display: flex !important;
+    }
+}
+
+
+@media (max-width: 750px){
+
+    .cntrArtistas {
+        padding: 40px 50px;
+    }
+    .cntrCarrossel svg {
+        width: 50px;
+        height: 50px;
+
+    }
+    .tatuagens img {
+        width: 49%;
+    }
+    footer p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 750px){
+    .cntrHome img {
+        margin: 60px;
+        margin-top: 60px;
+        width: 400px;
+    }
+    .boxItensCarrossel .itensCarrossel:nth-child(2) {
+        display: none;
+    }
+    .itensCarrossel {
+        width: 100%;
+    }
+    .cntrContatoInfos {
+        width: 90%;
+    }
+    .cntrBtn, .cntrHorarios {
+        width: 50%;
+    }
+    .cntrEndereco p {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .boxArtistas strong, .cntrH2Enfeite h2 {
+        font-size: 25px;
+    }
+    .cntrH2Enfeite img {
+        width: 170px;
+    }
+}
+@media (max-width: 666px){
+    .cntrVerMaisComentario {
+        padding: 10px 40px;
+    }
+    .cntrHome > div > p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .cntrHome > div {
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .cntrHome > div > p {
+        display: none;
+    }
+    .cntrContatoInfos {
+        flex-direction: column-reverse;
+    }
+    .cntrHorarios {
+        margin-left: 0px;
+    }
+    .cntrBtn, .cntrHorarios {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .cntrBtn button, .cntrHorarios span {
+        border-bottom: 1px solid rgb(170 170 170 / 10%);
+    }
+    .cntrVerMaisComentario a:first-child{
+        text-decoration: none;
+        line-height: 1.3em;
+    }
+    .cntrVerMaisComentario a:first-child span{
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    .quebraLinha{
+        display: block;
+    }
+}
+@media (max-width: 570px){
+    .cntrVerMaisComentario {
+        padding: 10px 20px;
+    }
+    .cntrVerMaisComentario *{
+        font-size: 14px !important;
+    }
+    .cntrH2Enfeite img {
+        width: 100px;
+    }
+    header li {
+        margin: 0px 1px;
+        padding: 10px 12px;
+    }
+    .addComentario {
+        width: 80%;
+    }
+}
+@media (max-width: 550px){
+    .cntrArtistas {
+        padding: 0px 20px;
+    }
+}
